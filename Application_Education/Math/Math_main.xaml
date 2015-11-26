@@ -9,7 +9,11 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="38*"/>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="43*"/>
+            <ColumnDefinition Width="72*"/>
             <ColumnDefinition Width="69*"/>
             <ColumnDefinition Width="42*"/>
             <ColumnDefinition Width="21*"/>
@@ -22,7 +26,9 @@
             <ColumnDefinition Width="77*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="83*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="36*"/>
             <RowDefinition Height="33*"/>
             <RowDefinition Height="64*"/>
             <RowDefinition Height="25*"/>
@@ -36,14 +42,16 @@
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///im/mainmath.png"/>
         </Grid.Background>
-        <TextBlock x:Name="tb_math" Grid.Column="1" Margin="27,0,-10,10" Grid.Row="1" TextWrapping="Wrap" Text="QUESTION" FontSize="48" FontWeight="Bold" FontFamily="Segoe UI Black" TextAlignment="Center" Foreground="#FF00FF1E" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Grid.ColumnSpan="4"/>
-        <TextBox x:Name="txt_math" Grid.Column="1" Margin="10,0,10,8" Grid.Row="3" TextWrapping="Wrap" Text="Enter the Anwser" d:LayoutOverrides="LeftMargin, RightMargin" FontSize="18.667" FontWeight="Bold" Grid.ColumnSpan="5" TextAlignment="Center"/>
-        <Button x:Name="but_send" Content="ANWSER" Grid.Column="7" HorizontalAlignment="Stretch" Grid.Row="3" VerticalAlignment="Stretch" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin, TopPosition, BottomPosition" Background="#FFFF3F00" FontSize="24" FontFamily="Segoe UI Black" FontWeight="Bold" Foreground="White" BorderBrush="White" Click="button1_Click" Grid.RowSpan="2"/>
-        <TextBlock x:Name="tb_time" Grid.Column="2" Margin="10" Grid.Row="8" TextWrapping="Wrap" Text="100" FontFamily="Segoe UI Black" FontSize="40" FontWeight="Bold" Foreground="White" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
-        <TextBlock x:Name="tb_scoser" Grid.Column="5" Margin="10" Grid.Row="8" TextWrapping="Wrap" Text="100" FontFamily="Segoe UI Black" FontWeight="Bold" FontSize="40" Foreground="White" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
-        <Button x:Name="but_strat" Content="START" Grid.Column="1" HorizontalAlignment="Stretch" Margin="10" Grid.Row="6" VerticalAlignment="Stretch" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Background="#FF11FF00" BorderBrush="White" Foreground="White" Click="but_strat_Click"/>
-        <Button x:Name="re_but" Content="REPORT" Grid.Column="4" HorizontalAlignment="Stretch" Margin="17,10,10,10" Grid.Row="6" VerticalAlignment="Stretch" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin, LeftPosition, RightPosition" Background="#FFFF001D" Foreground="White" BorderBrush="White" Click="re_but_Click"/>
-        <TextBlock x:Name="tb_true" Grid.Column="9" Margin="1,0,0,0" Grid.Row="3" TextWrapping="Wrap" Text="" FontSize="32" FontWeight="Bold" FontFamily="Segoe UI Black" Grid.RowSpan="2" Foreground="Red"/>
+        <TextBlock x:Name="tb_math" Grid.Column="5" Margin="27,0,-10,10" Grid.Row="3" TextWrapping="Wrap" Text="QUESTION" FontSize="48" FontWeight="Bold" FontFamily="Segoe UI Black" TextAlignment="Center" Foreground="#FF00FF1E" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Grid.ColumnSpan="4"/>
+        <TextBox x:Name="txt_math" Grid.Column="5" Margin="10,0,10,10" Grid.Row="5" TextWrapping="Wrap" Text="Enter the Anwser" d:LayoutOverrides="LeftMargin, RightMargin" FontSize="18.667" FontWeight="Bold" Grid.ColumnSpan="5" TextAlignment="Center"/>
+        <Button x:Name="but_send" Content="ANWSER" Grid.Column="11" HorizontalAlignment="Stretch" Grid.Row="5" VerticalAlignment="Stretch" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin, TopPosition, BottomPosition" Background="#FFFF3F00" FontSize="24" FontFamily="Segoe UI Black" FontWeight="Bold" Foreground="White" BorderBrush="White" Click="button1_Click" Grid.RowSpan="2"/>
+        <TextBlock x:Name="tb_time" Grid.Column="6" Margin="10" Grid.Row="10" TextWrapping="Wrap" Text="0" FontFamily="Segoe UI Black" FontSize="40" FontWeight="Bold" Foreground="White" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
+        <TextBlock x:Name="tb_scoser" Grid.Column="9" Margin="10" Grid.Row="10" TextWrapping="Wrap" Text="0" FontFamily="Segoe UI Black" FontWeight="Bold" FontSize="40" Foreground="White" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
+        <Button x:Name="but_strat" Content="START" Grid.Column="5" HorizontalAlignment="Stretch" Margin="10" Grid.Row="8" VerticalAlignment="Stretch" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Background="#FF11FF00" BorderBrush="White" Foreground="White" Click="but_strat_Click" FontSize="18.667" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <Button x:Name="re_but" Content="REPORT" Grid.Column="8" HorizontalAlignment="Stretch" Margin="17,10,10,10" Grid.Row="8" VerticalAlignment="Stretch" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin, LeftPosition, RightPosition" Background="#FFFF001D" Foreground="White" BorderBrush="White" Click="re_but_Click" FontSize="18.667" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <TextBlock x:Name="tb_true" Grid.Column="13" Margin="1,0,0,0" Grid.Row="5" TextWrapping="Wrap" Text="" FontSize="32" FontWeight="Bold" FontFamily="Segoe UI Black" Grid.RowSpan="2" Foreground="Red"/>
+        <Button x:Name="but_home" Content="HOME" Grid.Column="3" HorizontalAlignment="Stretch" Margin="3,0,8,10" Grid.Row="1" VerticalAlignment="Stretch" Background="#FFFF1D00" BorderBrush="White" Foreground="White" FontSize="18.667" FontFamily="Segoe UI Black" FontWeight="Bold" Click="but_home_Click"/>
+        <Button x:Name="but_back" Content="BACK" Grid.Column="1" HorizontalAlignment="Stretch" Margin="6,0,0,10" Grid.Row="1" VerticalAlignment="Stretch" Background="#FFFF1D00" BorderBrush="White" Foreground="White" FontSize="18.667" FontFamily="Segoe UI Black" FontWeight="Bold" Click="but_back_Click"/>
 
     </Grid>
 </Page>

@@ -78,11 +78,10 @@
     </RootType>
     <RootType FullName="Application_Education.Math.Math_report" />
     <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
-      <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="RenderTransform" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />

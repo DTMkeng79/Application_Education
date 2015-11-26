@@ -9,14 +9,18 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="165*"/>
+            <ColumnDefinition Width="36*"/>
+            <ColumnDefinition Width="61*"/>
+            <ColumnDefinition Width="68*"/>
             <ColumnDefinition Width="207*"/>
             <ColumnDefinition Width="12*"/>
             <ColumnDefinition Width="77*"/>
             <ColumnDefinition Width="179*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="156*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="84*"/>
             <RowDefinition Height="33*"/>
             <RowDefinition Height="53*"/>
             <RowDefinition Height="66*"/>
@@ -25,14 +29,15 @@
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///im/text1_BG.png"/>
         </Grid.Background>
-        <Button x:Name="button" Content="SEND" Grid.Column="3" HorizontalAlignment="Stretch" Margin="10,5" Grid.Row="1" VerticalAlignment="Stretch" Background="#FFFF0034" BorderBrush="White" Foreground="White" FontSize="24" FontFamily="Segoe UI Black" FontWeight="Bold" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Click="button_Click"/>
-        <TextBox x:Name="txt_speed" Grid.Column="1" Margin="10,10,10,-9" Grid.Row="1" TextWrapping="Wrap" Text="Enter the Word" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin, TopPosition, BottomPosition" FontSize="26.667" BorderBrush="{x:Null}" Background="{x:Null}"/>
-        <TextBlock x:Name="tb1_speed" Grid.Column="1" Margin="10" Grid.Row="3" TextWrapping="Wrap" Text="TextBlock" FontSize="48" TextAlignment="Center" FontWeight="Bold" FontFamily="Segoe UI Black" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
-        <MediaElement x:Name="media" Height="51" Margin="0,0,76,10" VerticalAlignment="Bottom" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right">
+        <Button x:Name="button" Content="SEND" Grid.Column="5" HorizontalAlignment="Stretch" Margin="10,5" Grid.Row="3" VerticalAlignment="Stretch" Background="#FFFF0034" BorderBrush="White" Foreground="White" FontSize="24" FontFamily="Segoe UI Black" FontWeight="Bold" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Click="button_Click"/>
+        <TextBox x:Name="txt_speed" Grid.Column="3" Margin="10,10,10,-9" Grid.Row="3" TextWrapping="Wrap" Text="Enter the Word" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin, TopPosition, BottomPosition" FontSize="26.667" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <TextBlock x:Name="tb1_speed" Grid.Column="3" Margin="10" Grid.Row="5" TextWrapping="Wrap" Text="" FontSize="48" TextAlignment="Center" FontWeight="Bold" FontFamily="Segoe UI Black" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin"/>
+        <MediaElement x:Name="media" Margin="0,0,29,35" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="2" VerticalAlignment="Bottom" d:LayoutOverrides="TopMargin, BottomMargin">
             <MediaElement.RenderTransform>
                 <CompositeTransform ScaleX="-1"/>
             </MediaElement.RenderTransform>
         </MediaElement>
+        <Button x:Name="button1" Content="HOME" Grid.Column="1" HorizontalAlignment="Stretch" Margin="10" Grid.Row="1" VerticalAlignment="Stretch" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Background="#FFFF1D00" BorderBrush="White" Foreground="White" FontSize="18.667" FontFamily="Segoe UI Black" FontWeight="Bold" Click="button1_Click"/>
 
     </Grid>
 </Page>

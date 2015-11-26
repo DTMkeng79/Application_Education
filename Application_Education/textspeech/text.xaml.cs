@@ -44,5 +44,10 @@ namespace Application_Education.textspeech
             mediaElement.Play();
 
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage), null);
+        }
     }
 }

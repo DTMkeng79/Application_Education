@@ -22,7 +22,7 @@
     <AppXManifest Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-26T04:24:22.730</Modified>
+      <Modified>2015-11-26T04:57:15.152</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -32,11 +32,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Application_Education.exe">
       <PackagePath>Application_Education.exe</PackagePath>
-      <Modified>2015-11-26T04:24:22.724</Modified>
+      <Modified>2015-11-26T04:57:15.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Application_Education.xr.xml">
       <PackagePath>Application_Education.xr.xml</PackagePath>
-      <Modified>2015-11-26T04:11:00.995</Modified>
+      <Modified>2015-11-26T04:46:36.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -78,7 +78,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\entrypoint\Application_Education.exe">
       <PackagePath>entrypoint\Application_Education.exe</PackagePath>
-      <Modified>2015-11-26T04:24:19.744</Modified>
+      <Modified>2015-11-26T04:57:11.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\im\BG.png">
       <PackagePath>im\BG.png</PackagePath>
@@ -134,7 +134,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-26T04:24:21.444</Modified>
+      <Modified>2015-11-26T04:57:13.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

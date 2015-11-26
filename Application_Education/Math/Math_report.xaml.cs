@@ -36,5 +36,18 @@ namespace Application_Education.Math
         {
             this.Frame.Navigate(typeof(Math_main),null);
         }
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            Member exper = e.Parameter as Member;
+            int fails = int.Parse(exper.failer);
+            int finily = int.Parse(exper.scoter);
+            int summe = fails + finily;
+            int vat = summe / 60;
+
+            this.tb1.Text = "จำนวนข้อที่ทำ " + summe + "  ข้อ";
+            this.tb2.Text = "จำนวนข้อถูก  " + finily + "  ข้อ";
+            this.tb3.Text = "จำนวนข้อผิด  " + fails + "  ข้อ";
+            this.tb4.Text = "เฉลี่ย/วินาที  " + vat + "  ต่อข้อ";
+        }
     }
 }

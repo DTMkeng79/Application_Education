@@ -66,11 +66,26 @@ namespace Application_Education.Math
 
         private void re_but_Click(object sender, RoutedEventArgs e)
         {
+            Member exper = new Member();
+            exper.scoter = scoser.ToString();
+            exper.failer = fail.ToString();
 
+            this.Frame.Navigate(typeof(Math_report), exper);
         }
         //การทำงานเสรฺิม
         //ตัวเเปล
         public int x, y, r, a, b, simbot, sum, sum1, sum2, sum3;
+
+        private void but_back_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Math_level), null);
+        }
+
+        private void but_home_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage), null);
+        }
+
         public void Question()
         {
 

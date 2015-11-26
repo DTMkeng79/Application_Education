@@ -31,5 +31,15 @@ namespace Application_Education.Math
         {
             this.Frame.Navigate(typeof(Math_level),null);
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage), null);
+        }
+
+        private void but_home_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage),null);
+        }
     }
 }

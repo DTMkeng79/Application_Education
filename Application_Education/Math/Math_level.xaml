@@ -9,13 +9,19 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="256*"/>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="51*"/>
+            <ColumnDefinition Width="141*"/>
             <ColumnDefinition Width="151*"/>
             <ColumnDefinition Width="30*"/>
             <ColumnDefinition Width="203*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="125*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="34*"/>
+            <RowDefinition Height="66*"/>
             <RowDefinition Height="41*"/>
             <RowDefinition Height="11*"/>
             <RowDefinition Height="40*"/>
@@ -26,9 +32,11 @@
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///im/math1.png"/>
         </Grid.Background>
-        <Button x:Name="button" Content="EASY" Grid.Column="1" HorizontalAlignment="Stretch" Margin="10,10,18,10" Grid.Row="1" VerticalAlignment="Stretch" d:LayoutOverrides="TopMargin, BottomMargin" Background="#FF1DFF00" BorderBrush="White" Foreground="White" FontFamily="Showcard Gothic" FontSize="32" DoubleTapped="button_DoubleTapped" Click="button_Click"/>
-        <Button x:Name="button1" Content="MEDIUM" Grid.Column="1" HorizontalAlignment="Stretch" Margin="10,10,18,10" Grid.Row="3" VerticalAlignment="Stretch" d:LayoutOverrides="TopMargin, BottomMargin" Background="#FF23B4FF" BorderBrush="White" Foreground="White" FontFamily="Showcard Gothic" FontSize="32" Click="button1_Click"/>
-        <Button x:Name="button2" Content="HARD" Grid.Column="1" HorizontalAlignment="Stretch" Margin="10,10,18,10" Grid.Row="5" VerticalAlignment="Stretch" d:LayoutOverrides="TopMargin, BottomMargin" Background="#FFFF0006" BorderBrush="White" Foreground="White" FontSize="32" FontFamily="Showcard Gothic" Click="button2_Click"/>
+        <Button x:Name="button" Content="EASY" Grid.Column="5" HorizontalAlignment="Stretch" Margin="10,10,18,10" Grid.Row="3" VerticalAlignment="Stretch" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Background="#FF1DFF00" BorderBrush="White" Foreground="White" FontFamily="Showcard Gothic" FontSize="32" DoubleTapped="button_DoubleTapped" Click="button_Click"/>
+        <Button x:Name="button1" Content="MEDIUM" Grid.Column="5" HorizontalAlignment="Stretch" Margin="10,10,18,10" Grid.Row="5" VerticalAlignment="Stretch" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Background="#FF23B4FF" BorderBrush="White" Foreground="White" FontFamily="Showcard Gothic" FontSize="32" Click="button1_Click"/>
+        <Button x:Name="button2" Content="HARD" Grid.Column="5" HorizontalAlignment="Stretch" Margin="10,10,18,10" Grid.Row="7" VerticalAlignment="Stretch" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Background="#FFFF0006" BorderBrush="White" Foreground="White" FontSize="32" FontFamily="Showcard Gothic" Click="button2_Click"/>
+        <Button x:Name="but_home" Content="HOME" Grid.Column="3" HorizontalAlignment="Stretch" Margin="10" Grid.Row="1" VerticalAlignment="Stretch" Background="#FFFF1D00" BorderBrush="White" Foreground="White" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" FontSize="18.667" FontFamily="Segoe UI Black" FontWeight="Bold" Click="but_home_Click"/>
+        <Button x:Name="but_back" Content="BACK" Grid.Column="1" HorizontalAlignment="Stretch" Margin="11,10,5,10" Grid.Row="1" VerticalAlignment="Stretch" Background="#FFFF1D00" BorderBrush="White" Foreground="White" FontSize="18.667" FontFamily="Segoe UI Black" FontWeight="Bold" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Click="but_back_Click"/>
 
     </Grid>
 </Page>
