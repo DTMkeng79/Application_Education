@@ -31,7 +31,7 @@ namespace Application_Education
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Math_main),null);
+            this.Frame.Navigate(typeof(Math_info),null);
         }
 
         private void button_Click(object sender, RoutedEventArgs e)

@@ -26,5 +26,15 @@ namespace Application_Education.Math
         {
             this.InitializeComponent();
         }
+
+        private void but_home_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage), null);
+        }
+
+        private void but_back_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Math_main),null);
+        }
     }
 }

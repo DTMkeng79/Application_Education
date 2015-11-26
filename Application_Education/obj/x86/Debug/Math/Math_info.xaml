@@ -29,9 +29,10 @@
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///im/info.png"/>
         </Grid.Background>
-        <Button x:Name="button" Content="OK" Grid.Column="6" HorizontalAlignment="Stretch" Margin="10" Grid.Row="3" VerticalAlignment="Stretch" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Background="#FFFF1D00" BorderBrush="White" Foreground="White" FontSize="24" FontFamily="Segoe UI Black" FontWeight="Bold" Click="button_Click"/>
-        <Button x:Name="button1" Content="BACK" Grid.Column="1" HorizontalAlignment="Stretch" Margin="6,0,6,10" Grid.Row="1" VerticalAlignment="Stretch" d:LayoutOverrides="Height, LeftPosition, RightPosition" Background="#FFFF1D00" BorderBrush="White" Foreground="White" FontSize="18.667" FontFamily="Segoe UI Black" FontWeight="Bold"/>
-        <Button x:Name="button1_Copy" Content="HOME" Grid.Column="3" HorizontalAlignment="Stretch" Margin="6,0,7,10" Grid.Row="1" VerticalAlignment="Stretch" Background="#FFFF1D00" BorderBrush="White" Foreground="White" FontSize="18.667" FontFamily="Segoe UI Black" FontWeight="Bold" d:LayoutOverrides="Height, LeftPosition, RightPosition"/>
+        <Button x:ConnectionId='1' x:Name="button" Content="OK" Grid.Column="6" HorizontalAlignment="Stretch" Margin="10" Grid.Row="3" VerticalAlignment="Stretch" d:LayoutOverrides="LeftMargin, RightMargin, TopMargin, BottomMargin" Background="#FFFF1D00" BorderBrush="White" Foreground="White" FontSize="24" FontFamily="Segoe UI Black" FontWeight="Bold"                     />
+        <Button x:ConnectionId='2' x:Name="button1" Content="BACK" Grid.Column="1" HorizontalAlignment="Stretch" Margin="6,0,6,10" Grid.Row="1" VerticalAlignment="Stretch" d:LayoutOverrides="Height, LeftPosition, RightPosition" Background="#FFFF1D00" BorderBrush="White" Foreground="White" FontSize="18.667" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+        <Button x:ConnectionId='3' x:Name="button1_Copy" Content="HOME" Grid.Column="3" HorizontalAlignment="Stretch" Margin="6,0,7,10" Grid.Row="1" VerticalAlignment="Stretch" Background="#FFFF1D00" BorderBrush="White" Foreground="White" FontSize="18.667" FontFamily="Segoe UI Black" FontWeight="Bold" d:LayoutOverrides="Height, LeftPosition, RightPosition"/>
 
     </Grid>
 </Page>
+

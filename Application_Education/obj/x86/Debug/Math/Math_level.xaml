@@ -26,9 +26,10 @@
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///im/math1.png"/>
         </Grid.Background>
-        <Button x:Name="button" Content="EASY" Grid.Column="1" HorizontalAlignment="Stretch" Margin="10,10,18,10" Grid.Row="1" VerticalAlignment="Stretch" d:LayoutOverrides="TopMargin, BottomMargin" Background="#FF1DFF00" BorderBrush="White" Foreground="White" FontFamily="Showcard Gothic" FontSize="32" DoubleTapped="button_DoubleTapped" Click="button_Click"/>
-        <Button x:Name="button1" Content="MEDIUM" Grid.Column="1" HorizontalAlignment="Stretch" Margin="10,10,18,10" Grid.Row="3" VerticalAlignment="Stretch" d:LayoutOverrides="TopMargin, BottomMargin" Background="#FF23B4FF" BorderBrush="White" Foreground="White" FontFamily="Showcard Gothic" FontSize="32" Click="button1_Click"/>
-        <Button x:Name="button2" Content="HARD" Grid.Column="1" HorizontalAlignment="Stretch" Margin="10,10,18,10" Grid.Row="5" VerticalAlignment="Stretch" d:LayoutOverrides="TopMargin, BottomMargin" Background="#FFFF0006" BorderBrush="White" Foreground="White" FontSize="32" FontFamily="Showcard Gothic" Click="button2_Click"/>
+        <Button x:ConnectionId='1' x:Name="button" Content="EASY" Grid.Column="1" HorizontalAlignment="Stretch" Margin="10,10,18,10" Grid.Row="1" VerticalAlignment="Stretch" d:LayoutOverrides="TopMargin, BottomMargin" Background="#FF1DFF00" BorderBrush="White" Foreground="White" FontFamily="Showcard Gothic" FontSize="32"                                                        />
+        <Button x:ConnectionId='2' x:Name="button1" Content="MEDIUM" Grid.Column="1" HorizontalAlignment="Stretch" Margin="10,10,18,10" Grid.Row="3" VerticalAlignment="Stretch" d:LayoutOverrides="TopMargin, BottomMargin" Background="#FF23B4FF" BorderBrush="White" Foreground="White" FontFamily="Showcard Gothic" FontSize="32"                      />
+        <Button x:ConnectionId='3' x:Name="button2" Content="HARD" Grid.Column="1" HorizontalAlignment="Stretch" Margin="10,10,18,10" Grid.Row="5" VerticalAlignment="Stretch" d:LayoutOverrides="TopMargin, BottomMargin" Background="#FFFF0006" BorderBrush="White" Foreground="White" FontSize="32" FontFamily="Showcard Gothic"                      />
 
     </Grid>
 </Page>
+
