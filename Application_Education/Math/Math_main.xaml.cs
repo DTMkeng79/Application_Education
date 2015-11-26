@@ -37,6 +37,7 @@ namespace Application_Education.Math
         private void but_strat_Click(object sender, RoutedEventArgs e)
         {
             Question();
+            
             but_send.IsEnabled = true;
             times = 60;
             tb_time.Text = "" + times;
@@ -75,6 +76,11 @@ namespace Application_Education.Math
         //การทำงานเสรฺิม
         //ตัวเเปล
         public int x, y, r, a, b, simbot, sum, sum1, sum2, sum3;
+
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+            but_send.IsEnabled = false;
+        }
 
         private void but_back_Click(object sender, RoutedEventArgs e)
         {

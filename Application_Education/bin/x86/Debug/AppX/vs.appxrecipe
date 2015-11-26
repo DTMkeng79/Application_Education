@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>98820dd1-a80e-4233-8351-cd7fe783c342</PackageIdentityName>
     <IntermediateOutputPath>D:\App\git\Application_Education\Application_Education\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>6034251AA7FBBFE5F5C366DD9B98CD9C57942980720D51BECD532D974F77A767</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>48706B512352F8AA1C74DBA76B2639C8BD3B5D55FD44BA85045A9438602B1184</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>98820dd1-a80e-4233-8351-cd7fe783c342_1.0.0.0_x86__r1v67899pkssr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>98820dd1-a80e-4233-8351-cd7fe783c342_r1v67899pkssr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>98820dd1-a80e-4233-8351-cd7fe783c342</RegisteredPackageID>
@@ -22,7 +22,7 @@
     <AppXManifest Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-26T04:57:15.152</Modified>
+      <Modified>2015-11-26T05:15:23.713</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -32,11 +32,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Application_Education.exe">
       <PackagePath>Application_Education.exe</PackagePath>
-      <Modified>2015-11-26T04:57:15.146</Modified>
+      <Modified>2015-11-26T05:15:23.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Application_Education.xr.xml">
       <PackagePath>Application_Education.xr.xml</PackagePath>
-      <Modified>2015-11-26T04:46:36.309</Modified>
+      <Modified>2015-11-26T05:00:05.777</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -45,22 +45,37 @@
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-26T18:38:34.000</Modified>
+      <Modified>2015-11-26T05:14:59.967</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-26T18:38:34.000</Modified>
+      <Modified>2015-11-26T05:05:00.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-26T05:09:38.518</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-26T05:09:51.293</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-26T18:38:34.000</Modified>
+      <Modified>2015-11-26T05:12:07.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-26T18:38:34.000</Modified>
+      <Modified>2015-11-26T05:12:19.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-26T05:09:08.972</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
@@ -78,7 +93,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\entrypoint\Application_Education.exe">
       <PackagePath>entrypoint\Application_Education.exe</PackagePath>
-      <Modified>2015-11-26T04:57:11.948</Modified>
+      <Modified>2015-11-26T05:12:51.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\im\BG.png">
       <PackagePath>im\BG.png</PackagePath>
@@ -134,7 +149,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-26T04:57:13.786</Modified>
+      <Modified>2015-11-26T05:12:53.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

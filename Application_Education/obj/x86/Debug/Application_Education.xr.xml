@@ -12,6 +12,7 @@
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
+      <RootEvent Name="Loaded" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
       <RootMethod Name="GetRow" />

@@ -471,3 +471,9 @@ D:\App\git\Application_Education\Application_Education\obj\x86\Debug\textspeech\
 D:\App\git\Application_Education\Application_Education\obj\x86\Debug\textspeech\text.g.cs
 D:\App\git\Application_Education\Application_Education\obj\x86\Debug\textspeech\text.xaml
 D:\App\git\Application_Education\Application_Education\obj\x86\Debug\textspeech\text.xbf
+D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\Square310x310Logo.scale-100.png
+D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-100.png
+D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\Square71x71Logo.scale-100.png
+D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets\Square310x310Logo.scale-100.png
+D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets\Square44x44Logo.scale-100.png
+D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets\Square71x71Logo.scale-100.png

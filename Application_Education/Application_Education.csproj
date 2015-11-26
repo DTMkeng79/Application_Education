@@ -128,6 +128,9 @@
     <None Include="Application_Education_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Square71x71Logo.scale-100.png" />
     <Content Include="im\BG.png" />
     <Content Include="im\feed.png" />
     <Content Include="im\info.png" />
