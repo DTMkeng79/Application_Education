@@ -63,6 +63,7 @@
       <RootProperty Name="Text" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="TextAlignment" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="Background" />
     </RootType>
