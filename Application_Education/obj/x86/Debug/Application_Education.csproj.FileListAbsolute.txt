@@ -429,7 +429,6 @@ D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets
 D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png
 D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png
 D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
-D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets\StoreLogo.png
 D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png
 D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Application_Education.xr.xml
 D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\WinMetadata\Windows.winmd
@@ -477,3 +476,5 @@ D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets
 D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets\Square310x310Logo.scale-100.png
 D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets\Square44x44Logo.scale-100.png
 D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets\Square71x71Logo.scale-100.png
+D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\StoreLogo.scale-100.png
+D:\App\git\Application_Education\Application_Education\obj\x86\Debug\Core\Assets\StoreLogo.scale-100.png
