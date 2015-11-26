@@ -4,4 +4,7 @@
 
 [Files]
 "D:\App\git\Application_Education\Application_Education\obj\x86\Debug\split.scale-400.pri"			"resources.pri"
+"D:\App\git\Application_Education\Application_Education\obj\x86\Debug\PackageLayout\Assets\StoreLogo.scale-400.png"			"Assets\StoreLogo.scale-400.png"
 "D:\App\git\Application_Education\Application_Education\obj\x86\Debug\PackageLayout\Assets\Square71x71Logo.scale-400.png"			"Assets\Square71x71Logo.scale-400.png"
+"D:\App\git\Application_Education\Application_Education\obj\x86\Debug\PackageLayout\Assets\Square310x310Logo.scale-400.png"			"Assets\Square310x310Logo.scale-400.png"
+"D:\App\git\Application_Education\Application_Education\obj\x86\Debug\PackageLayout\Assets\BadgeLogo.scale-400.png"			"Assets\BadgeLogo.scale-400.png"

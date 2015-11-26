@@ -6,3 +6,5 @@
 "D:\App\git\Application_Education\Application_Education\obj\x86\Debug\split.scale-150.pri"			"resources.pri"
 "D:\App\git\Application_Education\Application_Education\obj\x86\Debug\PackageLayout\Assets\StoreLogo.scale-150.png"			"Assets\StoreLogo.scale-150.png"
 "D:\App\git\Application_Education\Application_Education\obj\x86\Debug\PackageLayout\Assets\Square71x71Logo.scale-150.png"			"Assets\Square71x71Logo.scale-150.png"
+"D:\App\git\Application_Education\Application_Education\obj\x86\Debug\PackageLayout\Assets\Square310x310Logo.scale-150.png"			"Assets\Square310x310Logo.scale-150.png"
+"D:\App\git\Application_Education\Application_Education\obj\x86\Debug\PackageLayout\Assets\BadgeLogo.scale-150.png"			"Assets\BadgeLogo.scale-150.png"
