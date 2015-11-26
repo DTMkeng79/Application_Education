@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>98820dd1-a80e-4233-8351-cd7fe783c342</PackageIdentityName>
     <IntermediateOutputPath>D:\App\git\Application_Education\Application_Education\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>DAEE9F14DC5358CB25C8DC3A83FFD62BC8B3ACB0F616B8A2984D10702E4023C7</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>test_1.0.0.0_x86__r1v67899pkssr</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>EB600B5F65BAF06649CED281FA5305B4BDEA6B1D4337A09FC557D4126D64949C</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>test_1.0.2.0_x86__r1v67899pkssr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>test_r1v67899pkssr!App</RegisteredUserModeAppID>
     <RegisteredPackageID>test</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=SNOWBALL</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.0.2.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-26T05:27:28.206</Modified>
+      <Modified>2015-11-26T05:36:34.778</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -32,11 +32,16 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Application_Education.exe">
       <PackagePath>Application_Education.exe</PackagePath>
-      <Modified>2015-11-26T05:27:28.189</Modified>
+      <Modified>2015-11-26T05:36:34.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Application_Education.xr.xml">
       <PackagePath>Application_Education.xr.xml</PackagePath>
       <Modified>2015-11-26T05:00:05.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-26T05:12:19.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -87,6 +92,11 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-11-26T05:22:30.985</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-26T05:33:54.732</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -98,7 +108,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\entrypoint\Application_Education.exe">
       <PackagePath>entrypoint\Application_Education.exe</PackagePath>
-      <Modified>2015-11-26T05:23:57.619</Modified>
+      <Modified>2015-11-26T05:36:32.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\im\BG.png">
       <PackagePath>im\BG.png</PackagePath>
@@ -154,7 +164,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-26T05:27:26.897</Modified>
+      <Modified>2015-11-26T05:36:33.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\App\git\Application_Education\Application_Education\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
